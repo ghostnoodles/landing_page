@@ -14,6 +14,7 @@ header {
 
 .front {
     display: flex;
+    padding: 80px 95px;
 }
 
 .logo {
@@ -34,3 +35,7 @@ a {
     text-decoration: none;
     font-size: 18px;
   }
+
+.front img{
+    width: 400px;
+}
