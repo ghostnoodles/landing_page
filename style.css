@@ -6,9 +6,9 @@ body {
     flex-direction: column;
 }
 
-* {
+/* * {
     border: 1px solid black;
-}
+} */
 
 header {
     background-color: #1F2937;
