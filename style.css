@@ -23,7 +23,8 @@ ul {
     justify-content: center;
 }
 
-a { 
+a,
+.front p { 
     color: #e5e7eb;
     text-decoration: none;
     font-size: 18px;
@@ -31,13 +32,21 @@ a {
 
 .front {
     display: flex;
+    padding: 100px 0px;
+    flex: 0;
+}
 
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
 }
 
 .front div {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    flex: 0 1 auto;
 }
 
 .logo {
@@ -48,4 +57,5 @@ a {
 
 .front img{
     width: 400px;
+    flex: 0;
 }
