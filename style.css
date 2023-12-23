@@ -23,6 +23,12 @@ ul {
     justify-content: center;
 }
 
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    margin-right: auto;
+}
+
 a,
 .front p { 
     color: #e5e7eb;
@@ -34,6 +40,9 @@ a,
     display: flex;
     padding: 100px 0px;
     flex: 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 h1 {
@@ -47,15 +56,21 @@ h1 {
     flex-direction: column;
     align-items: flex-start;
     flex: 0 1 auto;
+    width: 500px;
 }
 
-.logo {
-    font-size: 24px;
-    color: #f9faf8;
-    margin-right: auto;
+button {
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    font-size: 18px;
+    padding: 8px 30px;
 }
+
 
 .front img{
-    width: 400px;
-    flex: 0;
+    max-height: 250px;
+    min-width: 0;
+    flex: 0 1 auto;
 }
