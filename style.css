@@ -10,7 +10,8 @@ body {
     border: 1px solid black;
 } */
 
-header {
+header,
+footer {
     background-color: #1F2937;
 }
 
@@ -169,4 +170,12 @@ h1 {
 
 .action p {
     margin-bottom: 10px;
+}
+
+footer {
+    font-size: 18px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
 }
