@@ -6,6 +6,10 @@ body {
     flex-direction: column;
 }
 
+* {
+    border: 1px solid black;
+}
+
 header {
     background-color: #1F2937;
 }
@@ -94,6 +98,7 @@ button {
 .boxes {
     width: 200px;
     text-align: center;
+    margin-bottom: 52px;
   }
 
 .boxes img {
@@ -102,6 +107,24 @@ button {
   }
 
 .quote {
-    background-color: #E5E7EB;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+}
 
+.quote .word {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0 20px;
+    max-width: 900px;
+}
+
+.author {
+    font-weight: bold;
+    margin: 0;
 }
